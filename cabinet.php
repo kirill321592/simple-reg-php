@@ -10,14 +10,13 @@
 </body>
 </html>
 
-
 <?php
 include ('base.php'); 
 include ('functions.php'); 
-include ('user.php'); 
+include ('user.php');
+
 if(!$user) {
 header('location: /les/index.php');
 exit();
 }
-
 ?>
